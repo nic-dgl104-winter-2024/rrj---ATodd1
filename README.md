@@ -202,8 +202,41 @@ The current issue seems to be that not all the countries are listed in the isMob
 1.	What is the most surprising thing that you’ve learned about open source development and/or open source communities during your research this week?
 * For me the most surprising thing was that contributing to open source material doesn’t necessarily focus on programming or code, but a multitude of different opportunities to help develop the product.
 It was also surprising to find that a lot of the communities were actually quite kind, welcoming and not the toxic pit I have come to expect from open communications on the web.
-2.	What types of open source projects do you find yourself most drawn to? Is there an obvious connection between them?
+2.	What types of open source projects do you find yourself most drawn to? Is there an obvious connection between them?  
 * While the ones I am currently most drawn too are centered around design or UI/UX, anything that allows me to see a marked difference when completed is what really connects them. It doesn’t have to just be in UX/UI, even in programming, if I walk away and something is different because I was there then it makes me happy.
 3.	Is the programming language that you chose last week still the right choice? Should you consider alternatives?
 * For my current experience and knowledge base I still think JavaScript was the right choice so far, though it has stopped me from engaging in a couple of issues that focused more on other languages, I would rather play with the equipment I currently have an understanding of rather than trying to learn a new language on the fly as I try and complete these tasks.
+
+# Week 10 - Research and Reflection Activities  
+
+## Replacing an Issue  
+After condsidering what needed to be done for this particular course, it came to my attention that The Happiness Movement wasnt going to be a viable project to work on.  
+Instead I found a new issue to replace The Happiness Movement.  
+
+**URL for new issue**  
+https://github.com/SSENSE/vue-carousel/issues/385  
+
+**Description of the issue**  
+The issue focuses on how there is a build up of event listeners on the window object when a page is navigated to and away from multiple times via routing.  
+
+To adress the issue I plan too:  
+* look at the code and see where the event listeners are handled and if they have a corosponding remove event listener attached.
+* add remove event listener where appropriate in the code.
+
+  **on reflection**  
+There is alot, and I mean ALOT of code for that particular page and finding all the event listeners and where to remove them is not at all obvious with my minimal coding knowlege. This one may require a little more time and understanding to complete. Simply going through it wont be enough as there is thousands of lines of code and im not really sure how they all relate to eachother.
+
+## Follow up Questions and reflections  
+
+The question this week was what is the hardest/ most challenging thing you had to do this week for DGL 104 and how did i overcome this challenge.  
+
+Well, I had a few challenges. It was hard to pick one so I listed two.  
+1. **Time**: It takes me twice as long to complete most of these activties than the listed completetion time. Without having actually worked on any of the coding projects, merely setting them up as well as setting up and completeing the md file for the journal, not to mention looking at the code for the indvidual issues I selected to see which one I could conceivably tackle this week and going through all the videos and making sure I was doing things correctly, it took me most of one day just to get set up properly.  
+**How I overcame this challenge**  
+Honestly, I took time off work so I had an extra day in my week to work on school things. I'm confident that what I have left to do for this class this week wont take up a whole day, but incase it does I dont want be trying to make it up after 7pm on a sunday.
+
+2. **Knowledge**: After looking through the code for some of the issues I chose it became apparent to me that I'm as knowlegble as John Snow (I really know nothing). My basic JavaScript knowlege is not going to help me alot for these issues and theres alot of research im going to have to do if the plan is to accomplish work on all three. Its a little overwhelming to see code that thousands and thousands of lines long and trying to fix one issue in it.  
+**How I overcame this challenge**  
+I havent really. Yet. This week I simply focused on one of the easier issues to digest and that honestly helped boost my confidence for the rest of them. I know I can do this if I really put my mind to it. I do love coding and learning and overcomming challenges so my plan going forward is to look at the longer codes in smaller chunks and see if I can understand or at least FIND what im supposed to be looking for. I know this will take hours over multiple days and im simply hoping that its infact doable.
+
 
