@@ -239,4 +239,95 @@ Honestly, I took time off work so I had an extra day in my week to work on schoo
 **How I overcame this challenge**  
 I havent really. Yet. This week I simply focused on one of the easier issues to digest and that honestly helped boost my confidence for the rest of them. I know I can do this if I really put my mind to it. I do love coding and learning and overcomming challenges so my plan going forward is to look at the longer codes in smaller chunks and see if I can understand or at least FIND what im supposed to be looking for. I know this will take hours over multiple days and im simply hoping that its infact doable.
 
+# Week 11 Follow up questions and reflections  
+
+**Determin if my chosen programming language is OOP capable.**  
+
+Well, lets take a closer look at OOP and determin if JavaScript supports OOP and to what extent.  
+1. **Classes and Objects:**  
+* In JavaScript, classes were introduced in ES6 to provide a more structured way to create objects and deal with inheritance.
+* Classes in JavaScript are primarily syntactical sugar over the existing prototype-based inheritance model.
+* Example:
+```
+class person{
+constructor(name, age){
+this.name = name;
+this.age = age;
+}
+function greet(){
+return `Hello, my name is ${this.name} and I'm ${this.age} years old.`;
+}
+}
+const john = new Person('John', 30);
+console.log(john.greet());// should output: Hello my name is John and im 30 years old.
+```
+
+2. **Encapsulation:**
+* JavaScript support encapsulation through closures and module patterns, as well as through the use of classes and access modifiers, like ```private``` fields.
+* Encapsulation is achieved by defining private variables and methods inside closures or classes and exposing only the necessary functionalities through public methods.
+
+3. **Inheritance**
+* inheritance in JavaScript is implemented through prototype chaining.
+* When ES6 introduced the ```class``` syntax, it made it easier to work with inheritance
+* Example:
+```
+class Animal{
+constructor(name){
+this.name = name;
+}
+speak(){
+return `${this.name} makes a sound.`;
+}
+}
+class Dog extends Animal{
+speak(){
+return `${this.name} barks.`;
+}
+}
+const dog = new Dog('Buddy');
+consol.log(dog.speak());// should output: Buddy barks.
+```
+4. **Polymorphism:**
+* Polymorphism in JavaScript is achieved through method overriding and dynamic method resolution.
+* Example of using method overriding:
+```
+class Shape{
+draw(){
+return 'Drawing a shape';
+}
+}
+class Circle extends Shape{
+draw(){
+return 'Drawing a circle';
+}
+}
+conts shape = new Circle();
+console.log(shape.draw());
+```
+5. **Abstraction:**
+* JavaScript supports abstraction through the use of classes, closures and functions.
+* Abstraction is achieved by hiding complex implementation details and exposing only essential functionalities.
+
+6. **Association, Aggregation and Composition:**  
+* in JavaScript, association, aggregation and composition are modeled similarly to other object-oriented languages.
+* They are represented through object references and can be implemented using classes or plain objects
+* Example using composition:
+```
+class Engine{
+start(){
+return 'Engine started';
+}
+}
+class Car{
+constructor(){
+this.engine = new Engine();
+}
+startEngine(){
+return this.engine.start();
+}
+}
+const car = new Car();
+console.log(car.startEngine());
+```
+In conclusion I feel that JavaScript employs quite a bit of OOP principles to organize code into reusable and modular components.
 
