@@ -1,4 +1,4 @@
-# SSENSE/vue-carousel - CONTRIBUTING.md
+# SSENSE/vue-carousel
 ## Basic information about the open source project:  
 The SSENSE vue-carousel is a versatile and responsive carousel component built using Vue.js. It offers a range of features that make it a powerful tool for creating dynamic and interactive carousels within Vue.js applications.
 ### link to my fork:  
