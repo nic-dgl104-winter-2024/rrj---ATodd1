@@ -275,7 +275,8 @@ I really wanted to make a diffrence in these projects and as the weeks went by I
 ## Link to issue  
 https://github.com/RocketChat/Rocket.Chat/issues/24917
 ## Link to external community project
-https://github.com/RocketChat/Rocket.Chat  
+https://github.com/RocketChat/Rocket.Chat 
+
 
 
 # Pattern Library  
@@ -442,7 +443,41 @@ In this implementation:
 The Model manages the application data.
 The View renders the UI based on the data from the Model.
 The Controller listens to user input from the View, updates the Model accordingly, and updates the View with the new data.
-This separation of concerns makes the code more modular, maintainable, and easier to understand. It also allows for better scalability and reusability of code components.
+This separation of concerns makes the code more modular, maintainable, and easier to understand. It also allows for better scalability and reusability of code components.  
+
+
+**4. Write definition of Strategy pattern in README.md #69**  
+
+While I wasnt assigned to this issue I did do some work on it.  
+**Strategy Pattern**  
+The Strategy pattern is a behavioral design pattern that enables an object, called the context, to vary its behavior at runtime by selecting from multiple algorithms or strategies. This pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. By doing so, the Strategy pattern allows the client to choose the algorithm that best suits its needs without altering the context.  
+
+**Key Components:**  
+Context: The class that contains a reference to the strategy interface and is configured with a concrete strategy object.  
+
+Strategy: The interface or abstract class that defines a set of methods for the algorithms. Concrete strategy classes implement these methods to provide specific behaviors.  
+
+**Usage in This Project:**
+In this project, we employ the Strategy pattern to encapsulate various algorithms or strategies that perform specific tasks. By defining a common interface for these strategies, we enable the context to dynamically select and execute the appropriate algorithm based on the current requirements or conditions.
+
+
+## Detailed discussion of issues contributed too and reflections of success:
+
+My journey into the world of open-source software development with the DGL104 pattern-library project was filled with both excitement and challenges. As a newcomer, I was eager to learn and contribute, but my lack of experience often posed hurdles along the way.  
+
+One of the issues I tackled was to outline the CONTRIBUTING.md file. While I didn't contribute much to this particular issue, I understood its importance. I crafted a structured outline to guide potential contributors, highlighting ways to report bugs, suggest enhancements, and submit code fixes.  
+
+Another task involved reviewing the README.md for formatting consistency. Although not specifically assigned, I took the initiative to ensure headings were logical, code blocks were properly formatted, and markdown was used consistently.  
+
+Additionally, I delved into understanding and adding clarifying comments to the MVVM implementation. While I struggled with some concepts due to my limited experience, I managed to grasp the essence of the code and added comments to enhance readability.  
+
+Lastly, though not directly assigned, I explored the Strategy pattern and proposed its definition for inclusion in the README.md. Despite facing challenges in grasping advanced design patterns, I persevered and contributed to the project's documentation.  
+
+Throughout this journey, my primary obstacle was my novice status. Despite feeling inadequate at times, I endeavored to make up for it by showcasing my efforts in the CONTRIBUTING.md file. As I continue to learn and grow, I am confident that each contribution, no matter how small, brings me closer to becoming a proficient member of the open-source community.
+
+
+
+
 
 
 
