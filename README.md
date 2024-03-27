@@ -329,5 +329,59 @@ return this.engine.start();
 const car = new Car();
 console.log(car.startEngine());
 ```
-In conclusion I feel that JavaScript employs quite a bit of OOP principles to organize code into reusable and modular components.
+In conclusion I feel that JavaScript employs quite a bit of OOP principles to organize code into reusable and modular components.  
+
+
+# Week 12: Bullet point of all work done  
+
+### SSENSE/vue-carousel  
+* Enhanced accessibility and user experience of SSENSE vue-carousel by implementing keyboard input controls.
+* Implemented keypress event listeners to detect keyboard input.
+* Integrated functionality to navigate through carousel slides using keyboard keys.
+* Provided an alternative method of interaction alongside touch and drag gestures.
+* Explored the project's existing code and relevant documentation to understand implementation requirements.
+* Faced challenges in navigating through thousands of lines of code and grasping existing code structure.
+* Sought guidance from the community and reviewed contributions of others, despite limited community support.
+* Demonstrated determination to contribute meaningfully despite obstacles encountered.
+* Created a mock-up of the implementation to showcase envisioned functionality.
+
+### Validator.js  
+* Contributed to the open-source project Validator.js, focused on string validators and sanitizers.
+* Participated in addressing issue #1761 titled "Mobile Phone validations - For The First Time Contributors".
+* Task involved adding phone number validations for countries not supported in the existing isMobilePhone function.
+* Specifically focused on enhancing validation for Canadian phone numbers.
+* Researched standard formats and conventions for Canadian phone numbers, including area codes and number lengths.
+* Implemented validation logic by crafting a regular expression within the isMobilePhone.js file.
+* Ensured accuracy and adherence to project standards and conventions.
+* Documented the new validation method within the README file for user and contributor guidance.
+
+### Rocket.Chat  
+* Engaged in contributing to the open-source project Rocket.Chat, a customizable communications platform developed in JavaScript.
+* Focused on addressing issue #24917 titled "Update Emoji library."
+* Task involved updating the emoji picker to use the newer emoji-toolkit package instead of the discontinued emojione package.
+* Initially perceived the task as JavaScript-related but later realized it primarily involved CSS.
+* Despite initial misunderstanding, committed to contributing meaningfully by outlining a step-by-step tutorial to address the issue.
+* Tutorial aimed to provide clarity and guidance for future contributors navigating similar challenges.
+* Encountered challenges navigating the Rocket.Chat codebase, which was divided across multiple repositories.
+* Difficulty pinpointing exact files and packages responsible for emoji handling, especially distinguishing between CSS and JavaScript files.
+* Despite challenges, remained committed to finding a solution and offered insights and suggestions to aid in resolving the issue.
+* Crafted tutorial to bridge the gap between understanding and task, aiming to empower community members to contribute meaningfully.
+* Demonstrated commitment to the project and gained valuable insights into open-source development processes and community collaboration.
+
+### Pattern Library  
+
+* Engaged in contributing to the open-source project Pattern Library, a multi-language library containing implementations of common software design and architecture patterns.
+
+* Examined several issues within the project, including:
+
+**1. Add skeleton outline for CONTRIBUTING.md #17:** Drafted a comprehensive outline for the CONTRIBUTING.md file to guide potential contributors through various ways of participation.  
+**2. Final README.md editing pass for formatting consistency #21:** Reviewed the README.md for formatting consistency, ensuring proper markdown usage, code block formatting, and logical ordering of headings.  
+**3. Review MVVM implementation and add clarifying comments #63:** Explored the MVVM (Model-View-ViewModel) implementation, added clarifying comments to enhance code readability, and gained insights despite facing challenges due to limited experience.  
+**4. Write definition of Strategy pattern in README.md #69:** Contributed by proposing the definition of the Strategy pattern for inclusion in the README.md, despite facing challenges in understanding advanced design patterns.  
+
+* Demonstrated commitment to contributing despite challenges associated with being a newcomer in the open-source community.
+
+* Showcased efforts in creating structured outlines, reviewing documentation for consistency, adding clarifying comments to code, and proposing definitions for inclusion.
+
+* Emphasized the importance of continuous learning and growth in becoming a proficient member of the open-source community.
 
