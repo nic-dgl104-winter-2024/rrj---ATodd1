@@ -458,7 +458,11 @@ Context: The class that contains a reference to the strategy interface and is co
 Strategy: The interface or abstract class that defines a set of methods for the algorithms. Concrete strategy classes implement these methods to provide specific behaviors.  
 
 **Usage in This Project:**
-In this project, we employ the Strategy pattern to encapsulate various algorithms or strategies that perform specific tasks. By defining a common interface for these strategies, we enable the context to dynamically select and execute the appropriate algorithm based on the current requirements or conditions.
+In this project, we employ the Strategy pattern to encapsulate various algorithms or strategies that perform specific tasks. By defining a common interface for these strategies, we enable the context to dynamically select and execute the appropriate algorithm based on the current requirements or conditions.  
+
+**5. Final README.md editing pass for formatting consistency #21**  
+
+Performed a readthrough of the README.md file as it was on 2024-03-28 and noticed the link to singleton-pattern was not working, the culprit was an extra # that did not need to be there. Removed, read through the rest and it seems to be okay save for some minor spelling errors I fixed. Created fork, created pull request. 
 
 
 ## Detailed discussion of issues contributed too and reflections of success:
